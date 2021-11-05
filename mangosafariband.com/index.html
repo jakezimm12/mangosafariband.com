@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--menu: merch, meet the team, -->
+
+<html>
+    <head>
+        <title>Mango Safari</title>
+        <link rel="icon" type="image/png" href="mango.jpg">
+        <link rel='stylesheet' type='text/css' href="main.css">
+        <script src="https://kit.fontawesome.com/76e996591c.js"></script>
+        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    
+        <link rel="preload" as="image" href="mangOcean.png" alt="Ocean">
+        <link rel="preload" as="image" href="banner.png" alt="Banner">
+        <link rel="preload" as="image" href="mangO1.jpg" alt="Mango Safari Performance">
+        <link rel="preload" as="image" href="mangO2.jpg" alt="Mango Safari Performance">
+        <link rel="preload" as="image" href="mangO3.jpg" alt="Mango Safari Performance">
+        <link rel="preload" as="image" href="mangOpic.jpg" alt="Mango Safari Performance">
+        <link rel="preload" as="image" href="theGangHear.jpg" alt="Mango Safari Performance">
+
+        <!--<link rel="preload" href="banner.png">
+        <link rel="preload" href="mangO1.jpg">
+        <link rel="preload" href="mangO2.jpg">
+        <link rel="preload" href="mangO3.jpg">
+        <link rel="preload" href="mangOpic.jpg">
+        <link rel="preload" href="safari.jpg">
+        <link rel="preload" href="theGangHear.jpg">
+
+     </head>
+
+    <body>   
+    <!--\
+    <img class="slide-show-picture" src="mangOcean.jpg" alt="Slide Show Picture">
+    <img class="slide-show-picture" src="banner.png" alt="Slide Show Picture">
+    <img class="slide-show-picture" src="mangO1.jpg" alt="Slide Show Picture">
+    <img class="slide-show-picture" src="mangO2.jpg" alt="Slide Show Picture">
+    <img class="slide-show-picture" src="mangO3.jpg" alt="Slide Show Picture">
+    <img class="slide-show-picture" src="mangOpic.jpg" alt="Slide Show Picture">
+    <img class="slide-show-picture" src="theGangHear.jpg" alt="Slide Show Picture">
+    
+<div id="splashscreen">
+    <h2>Welcome !</h2>
+    <a href="#" class="enter_link">Enter on the website</a>
+    </div>-->
+
+    <div id='welcome-page'>
+
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='title'>
+            <h1 id='welcome-text'>Welcome</h1>
+            <h3 id='enter-text'>Enter Website</h3>
+        </span>
+        </div>
+
+    </div>
+
+    <div id='content-page'>
+        <div class="safari-background">
+            <div class="header">
+                <a class="menu-items" href="#Merch">Merch</a>
+                <a class="menu-items" href="#About">About</a>
+                <a class="menu-items" href="#Contact">Booking</a>
+            </div>
+            <h1 id='main-title'>M a n g o &nbsp; &nbsp; S a f a r i</h1>
+            <div class="social-media">
+                <a href="https://music.apple.com/us/artist/mango-safari/1415150770" target="_blank"><i class="fab fa-itunes-note fa-2x"></i></a>
+                <a href="https://open.spotify.com/artist/12pwnvMyovlVv2xAuKff4j" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>    
+                <a href="https://soundcloud.com/mangosafari" target="_blank"><i class="fab fa-soundcloud fa-2x"></i></a>
+                <a href="https://www.instagram.com/mango_safari/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <div id="news">
+                <h2 class="newsHead">Recent News</h2>
+                <div id="news-background">
+                    <h3 id='recent-news-text'>New EP out now! Listen to "Momotaro" on any streaming platform!</h3>
+                </div>
+            </div>
+            </div>
+        <div id=information>
+            <div id="information-merch">
+
+                <form action='mail.php'method="POST" id='cart-form'>
+                    <div id='cart-page'>
+                        <h2 id='cart-page-exit-button'>X</h2>
+                        <h1 id='cart-page-title'>Cart</h1>
+                        <ol id='cart-items'>
+                        </ol>
+                        &nbsp; &nbsp;
+                        <h3 id='total-cost'>Total: </h3>
+                        &nbsp; &nbsp; &nbsp; &nbsp;Email Address:
+                        <input id='email-input' type="text" name="email">
+                        <input type="text" id="merch-input" name="merch-input" value="">
+                        <input id='cart-form-submit-button' type="submit" value="Submit">
+                    </div>
+                    <input type="hidden" id="merch_input" name="merch-input" value="">
+                </form>
+
+                <div id=merch-and-cart-button>
+                    <h2 id="Merch">Merch</h2>
+                    <button onclick="myFunction()" class='dropdown-button' id='view-cart-button'></button>
+                </div>
+                <div class="most-outter-container">
+                    <div class="outter-container">
+                        <div id="t-shirt-inner-container" class="inner-container">
+                            <h3 id="t-shirt-h3">T-Shirt</h3>
+                        </div>
+                        <div id="hat-inner-container" class="inner-container">
+                            <h3 id="hat-h3">Hat</h3>
+                        </div>
+
+                        <div id="sticker-inner-container" class="inner-container">
+                            <h3 id="sticker-h3">Sticker</h3>
+                        </div>
+                        <div id="hoodie-inner-container" class="inner-container">
+                            <h3 id="hoodie-h3">Hoodie</h3>
+                        </div>
+                        <div id="poster-inner-container" class="inner-container">
+                            <h3 id="poster-h3">Poster</h3>
+                        </div>
+                        <div class="inner-container">
+                            <h3>Coming Soon!</h3>
+                        </div>
+                    </div>
+                    <div id="outter-container-two" class="outter-container">
+                        <div id="container-contents">
+                            <h2 id="merch-display-text"></h2>
+                            <img id="display-picture" class="merch-picture" src="" alt="Merchandise Display Image">
+                            <div id="user-input-fields">  
+                                
+                                <select class="merch-selection-button" id="select-size-button" name="Size">
+                                    <option id='Size?' value="?">Size?</option>
+                                    <option value="small">S</option>
+                                    <option value="medium">M</option>
+                                    <option value="large">L</option>
+                                    <option value="extra-large">XL</option>
+                                </select>
+                                <select class="merch-selection-button" id="select-color-button" name="Color">
+                                    <option id='Color?' value="?">Color?</option>
+                                    <option value="red">Red</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="white">White</option>
+                                    <option value="yellow">Yellow</option>
+                                </select>
+                                <h3 id='cost'>$15</h3>
+                            </div>
+                            <div id="flip-picture-add-to-cart-buttons">
+                                <h3 id="see-back-button">See Back</h3>
+                                <h3 id="add-to-cart-button">Add to Cart</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="information-about">
+                <h2 id="About">About Us</h2>
+                <p class="aboutUs">Mango Safari is a indie rock band formed in New Hope, Pennsylvania in 2018. The band consists of Henry Cabelus, Grant Cheung, Derek Donohoe, Ethan Datz, and Ryan Keating. Mango Safari takes a DIY approach to making their music and records and mixes all their music at Mango Safari HQ, a scenic 1800s home reconfigured into a recording studio where the band records both digital and analog . The result is a unique sound with hints of vintage lo-fi elements mixed with spacey sonic journeys that will leave you wanting to put the song on repeat. Check out the bands Instagram @mango_safari to hear new music and buy tickets to their next show!</p>
+                <br><br>
+                <p class='aboutUs'> Hover over our names to find out more! <br>(tap on mobile)</p>
+
+                <div class='name' id="henry">Henry Cabelus
+                    <span class="popup-on-hover"><span class='category'>Roles:</span> Guitarist, Keys<br><span class='category'>Quote:</span> "If it's a thing that people do, I'm probably good at it."</span>
+                </div>
+                <div class='name' id="ethan">Ethan Datz
+                    <span class="popup-on-hover"><span class='category'>Roles:</span> Singer, Songwriter, Guitarist<br><span class='category'>Quote:</span> "*About to to say his quote then checks phone to see if Rachel (GF) texted*</span>
+                </div>
+                <div class='name' id="derek">Derek Donohoe
+                    <span class="popup-on-hover"><span class='category'>Roles:</span> Drums, Guitarist<br><span class='category'>Quote:</span> "Diligence is success."</span>
+                </div>
+                <div class='name' id="grant">Grant Cheung
+                    <span class="popup-on-hover"><span class='category'>Roles:</span> Bass, Guitarist, Drums, Keys, Producer<br><span class='category'>Quote:</span> "Be kind, make things, and respect mother nature."</span>
+                </div>
+                <div class='name' id="ryan">Ryan Keating
+                    <span class="popup-on-hover"><span class='category'>Roles:</span> Bass, Singer, Songwriter<br><span class='category'>Quote:</span> "We are! (all Penn State people say that, you know how it is)"</span>
+                </div>
+            </div>
+            <img id = "banner" src = "banner.png" alt="banner">
+            <div id="information-contact">
+                <h2 id="Contact">Booking Info</h2>
+                <p>Email: mangosafariband@gmail.com</p>
+                <p></p>
+                <div id="footer">~Site created by Jake Zimmerman and Derek Donohoe~</div>
+            </div>
+        </div>
+        <div id='div-for-audio'>
+            <!--<embed name="New Song" src="audio.m4a" width="150" height="90" loop="false" autostart="true" hidden = "true">-->
+        </div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script> 
+    <script src='main.js'></script> 
+
+    <!-- Default Statcounter code for Band Website http://www.mangosafariband.com
+    -->
+    <script type="text/javascript">
+    var sc_project=12050641;
+    var sc_invisible=1;
+    var sc_security="50339153";
+    var sc_https=1;
+    var scJsHost = "https://";
+    document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img class="statcounter"
+    src="https://c.statcounter.com/12050641/0/50339153/0/" alt="Web
+    Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+    <a href="https://statcounter.com/p12050641/?guest=1"></a>
+
+    </body>
+    
+</html>
