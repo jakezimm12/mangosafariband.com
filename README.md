@@ -1,2 +1,3 @@
 # mangosafariband.com
 Code for Mango Safari's website.
+In the summer of 2019, an up and coming hometown band, Mango Safari, was looking to have a website built for them. I was looking for a side-project in front-end development and wanted experience in website design, so I agreed to build a website that fit their creative vision and musical style: "vintage lo-fi elements mixed with spacey sonic journeys." The final product can be found at http://mangosafariband.com/?i=1 Since the band broke up in the summer of 2020, certain dynamic parts of the website have been deactivated (pretty much just the ability to actually buy merchandise).
